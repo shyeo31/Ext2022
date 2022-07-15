@@ -1,7 +1,7 @@
 library(timevis)
 
 #make sure the working directory is correct
-setwd("/Users/sarahyeo/Documents/GitHub/Ext2022/web/")
+setwd(getwd())
 
 #import data from csv
 ds1<-read.csv("Background.csv",header=T)
